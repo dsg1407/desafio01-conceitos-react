@@ -1,7 +1,7 @@
 import { ClipboardText } from "phosphor-react"
 
 import { Header } from "./components/Header"
-import { TaskForm } from "./components/TaskForm"
+import { NewTaskForm } from "./components/NewTaskForm"
 
 import "./styles/global.css"
 import styles from "./App.module.css"
@@ -11,7 +11,7 @@ export function App() {
     <>
       <Header />
       <main className={styles.wrapper}>
-        <TaskForm />
+        <NewTaskForm />
         <section className="tasks-section">
           <section className="tasks-status-section">
             <div>
