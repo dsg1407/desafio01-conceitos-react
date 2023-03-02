@@ -1,10 +1,9 @@
-import { ClipboardText } from "phosphor-react"
-
 import { Header } from "./components/Header"
 import { NewTaskForm } from "./components/NewTaskForm"
 
 import "./styles/global.css"
 import styles from "./App.module.css"
+import { EmptyTasksList } from "./components/EmptyTasksList"
 
 export function App() {
   return (
@@ -23,12 +22,8 @@ export function App() {
               <span>0</span>
             </div>
           </section>
-          <section className="tasks-list-section">
-            <div>
-              <ClipboardText />
-              <strong>Você ainda não tem tarefas cadastradas</strong>
-              <p>Crie tarefas e organize seus itens a fazer</p>
-            </div>
+          <section>
+            <EmptyTasksList />
           </section>
         </section>
       </main>
