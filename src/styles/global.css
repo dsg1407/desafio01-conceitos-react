@@ -30,6 +30,8 @@ body {
 
   background: var(--gray-600);
   color: var(--gray-100);
+
   font-family: "Inter", sans-serif;
   line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
 }
