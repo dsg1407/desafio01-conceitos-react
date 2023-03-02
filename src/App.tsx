@@ -1,14 +1,12 @@
 import { PlusCircle, ClipboardText } from "phosphor-react"
-import Logo from "./assets/todo-logo.svg"
+import { Header } from "./components/Header"
 
 import "./styles/global.css"
 
 export function App() {
   return (
     <>
-      <header className="header">
-        <img src={Logo} alt="Logo do site" />
-      </header>
+      <Header />
       <main>
         <form>
           <input type="text" placeholder="Adicione uma nova tarefa" required />
