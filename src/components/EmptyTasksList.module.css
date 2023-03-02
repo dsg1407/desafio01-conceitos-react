@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.wrapper div strong {
+  font-weight: bold;
+}
+
 .wrapper div p {
   margin-top: 0.25rem;
 }
