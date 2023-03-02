@@ -12,8 +12,8 @@ export function App() {
       <Header />
       <main className={styles.wrapper}>
         <NewTaskForm />
-        <section className="tasks-section">
-          <section className="tasks-status-section">
+        <section className={styles.tasksSection}>
+          <section className={styles.tasksStatusSection}>
             <div>
               <p>Tarefas criadas</p>
               <span>0</span>
