@@ -1,20 +1,17 @@
-import { PlusCircle, ClipboardText } from "phosphor-react"
+import { ClipboardText } from "phosphor-react"
+
 import { Header } from "./components/Header"
+import { TaskForm } from "./components/TaskForm"
 
 import "./styles/global.css"
+import styles from "./App.module.css"
 
 export function App() {
   return (
     <>
       <Header />
-      <main>
-        <form>
-          <input type="text" placeholder="Adicione uma nova tarefa" required />
-          <button type="submit">
-            Criar
-            <PlusCircle />
-          </button>
-        </form>
+      <main className={styles.wrapper}>
+        <TaskForm />
         <section className="tasks-section">
           <section className="tasks-status-section">
             <div>

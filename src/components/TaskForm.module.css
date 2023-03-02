@@ -1,0 +1,36 @@
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+
+  transform: translateY(-50%);
+}
+
+.form input {
+  width: 100%;
+}
+
+.form button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 1rem;
+
+  border: none;
+  border-radius: 8px;
+
+  font-weight: bold;
+  font-size: 0.875rem;
+
+  background: var(--blue-dark);
+  transition: background 0.2s;
+
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: var(--blue);
+}
