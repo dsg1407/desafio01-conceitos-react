@@ -1,5 +1,5 @@
 import * as Checkbox from "@radix-ui/react-checkbox"
-import { CheckIcon } from "@radix-ui/react-icons"
+import { Check } from "phosphor-react"
 import { Trash } from "phosphor-react"
 
 import styles from "./Task.module.css"
@@ -9,12 +9,12 @@ export function Task() {
     <div className={`${styles.wrapper} ${styles.finishedTaskWrapperXXX}`}>
       <Checkbox.Root className={styles.checkboxRoot}>
         <Checkbox.Indicator className={styles.checkboxIndicator}>
-          <CheckIcon />
+          <Check size={16} />
         </Checkbox.Indicator>
       </Checkbox.Root>
       <p className={styles.finishedTaskDescriptionXXX}>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-        delectus sint alias numquam sapiente quibusdam a!
+        Integer urna interdum massa libero auctor neque turpis turpis semper.
+        Duis vel sed fames integer.
       </p>
       <button className={styles.deleteTaskButton}>
         <Trash size={16} />
