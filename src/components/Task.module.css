@@ -18,6 +18,10 @@
   border-color: var(--gray-500);
 }
 
+.wrapper p {
+  margin: auto 0;
+  width: 100%;
+}
 .wrapper .finishedTaskDescription {
   text-decoration: line-through;
   color: var(--gray-300);
